@@ -16,7 +16,7 @@ MedBookingBTL
 </p>
 </head>
 <body>
-  <p> h </p>
+
 </body>
 </html>
 
