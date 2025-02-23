@@ -10,5 +10,5 @@ MedBookingBTL
 <body>
 <a href="https://benhvientinh.caobang.gov.vn/index.php/vi/">BTL</a>
 </body>
-</html>v 
+</html>
 
