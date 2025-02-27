@@ -1,19 +1,18 @@
 # hopital-website
 MedBookingBTL
 
-
 <!DOCTYPE html>
 <html>
 <head lang="vn">
 <meta charset="UTF-8">
-<meta name="viewpoint" content="width-device-width , initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover, shrink-to-fit=no" />
 <title>MebBookingBTL - Đặt lịch khám bệnh </title> <!--tieu de hien thi tren tab trinh duyet -->
 <meta name="description" content="Đặt lịch khám online nhanh chóng tại các bệnh viện gần bạn. Tích hợp Google Maps, cung cấp thông tin bệnh viện chi tiết: chuyên khoa, bác sĩ, giờ làm việc.">
 <meta name="keywords" content="bênh viện,đặt lịch ,tra cứu thông tin bệnh viện, bác sĩ , Bắc Từ Liêm">
 <!-- Favicon (icon nhỏ trên tab trình duyệt -->
 <link rel="icon" href="image/x-icon">
 <link rel="stylesheet" href="main.css">
-<img src="https://scontent.fhan14-2.fna.fbcdn.net/v/t1.15752-9/481331187_1018467373436689_7000248724772191540_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_eui2=AeEjYM2Q2m-8zL4srMNhAUtlEcNTY1FkGNkRw1NjUWQY2TQIg13_lGZjlDQMDcHJXAe8yFIKkGW1mW_Chj-BVT2T&_nc_ohc=xMX38QoiUhEQ7kNvgEUoUK_&_nc_oc=Adhcn7mhvmgdH2gQY66hknjCN_xhg3kv5ZMXZvMY9n15-BrUuHLQBzRbS_6O_wpeWzE&_nc_zt=23&_nc_ht=scontent.fhan14-2.fna&oh=03_Q7cD1gEiDSc3x13jweSWkWKDAO_-KYevXqWaE5mcvvjS1jbYRQ&oe=67E22326 " width="1520px"  height="512px" >
+<img src="https://scontent.fhan14-5.fna.fbcdn.net/v/t1.15752-9/481280470_1791921428255884_5777087804141641067_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=9f807c&_nc_eui2=AeGt4GRz9dlYORj5DywET7PPy8i6GAK2YzvLyLoYArZjO7w5em3MeP_SGsB4DBAo1CeVyf_CSSWup7MiVALogDE5&_nc_ohc=BkOI6DeVZGwQ7kNvgGNxw2F&_nc_oc=Adj85pVcNFmwvl1t9RFvykWB8eTRPHeXbO7_8MvJm19z2E3vPqx9n9BLfKEdk06Wko8&_nc_zt=23&_nc_ht=scontent.fhan14-5.fna&oh=03_Q7cD1gFYPdhm2kPq_AFPLX9f56nVdWHW82k1msrD_oti4ATOoA&oe=67E62AF0" style ="width: 100%; height: auto; display: block;" >
 </p>
 <style>
     .grid-container{
@@ -34,17 +33,51 @@ MedBookingBTL
 </style>
 </head>
 <body>
- <h2><b>TRUNG TÂM ĐẶT LỊCH KHÁM TẠI BTL</b></h2>
- <div class="grid-container">
-    <div><b>TRANG CHỦ</b></div>
-    <div><b>GIỚI THIỆU</b></div>
-    <div><b>TÌM KIẾM BỆNH VIỆN</b></div>
-    <div><b>HUỚNG DẪN KHÁCH HÀNG</b></div>
-    <div><b>THÔNG TIN BỆNH VIỆN </b></div>
-    <div><b> DỊCH VỤ Y TẾ </b></div>
- </div>
- </div>
- <p> BENH VIEN DA KHOA TRUNG UONG QUANH KHU VUC BAC TU LIEM</p>
-</body>
-</html>
 
+  <!-- Header -->
+  <header>
+      MedBookingBTL - HỆ THỐNG ĐẶT LỊCH KHÁM BỆNH VIỆN
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+      <a href="https://medlatec.vn/ " target="_parent"> <b>TRANG CHỦ</b></a>
+      <a href="#"><b>GIỚI THIỆU </b></a>
+      <a href="#"><b> DỊCH VỤ Y TẾ </b></a>
+      <a href="#"><b>ĐẶT LỊCH KHÁM</b> </a>
+      <a href="#"><b>LIÊN HỆ</b></a>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="container">
+
+      <!-- Giới thiệu -->
+      <section class="section">
+          <h2> GIỚI THIỆU </h2>
+          <p>MedBookingBTL giúp bạn tìm kiếm bệnh viện phù hợp và đặt lịch khám nhanh chóng. Hệ thống giúp tiết kiệm thời gian, giảm tải áp lực cho bệnh viện và nâng cao trải nghiệm khám chữa bệnh.</p>
+      </section>
+
+      <!-- Chức năng chính -->
+      <section class="section">
+          <h2> CHỨC NĂNG CHÍNH </h2>
+          <ul>
+              <li>🔍 Tìm kiếm bệnh viện theo chuyên khoa và vị trí.</li>
+              <li>📅 Đặt lịch khám trực tuyến.</li>
+              <li>📍 Hướng dẫn đường đi với Google Maps.</li>
+              <li>📩 Nhận thông báo nhắc lịch hẹn.</li>
+          </ul>
+      </section>
+
+      <!-- Nút đặt lịch -->
+      <section class="section">
+          <a href="#" class="btn">Đặt lịch ngay</a>
+      </section>
+  </div>
+    
+
+  <!-- Footer -->
+  <footer>
+      &copy; 2025 MedBookingBTL. Mọi quyền được bảo lưu.
+  </footer>
+
+</body>
